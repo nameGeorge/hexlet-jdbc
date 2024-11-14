@@ -5,7 +5,6 @@ import java.sql.SQLException;
 
 public class Application {
     // Нужно указывать базовое исключение,
-
     // потому что выполнение запросов может привести к исключениям
     public static void main(String[] args) throws SQLException {
         // Создаем соединение с базой в памяти
